@@ -1,0 +1,475 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Brush Script MT';
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  gap: 150px;
+  margin-left: 50px;
+  margin-bottom: 70px;
+  margin-right: 30px;
+}
+
+.logo {
+  width: 75px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.content {
+  color: midnightblue;
+}
+
+.content p {
+  font-size: 32px;
+}
+
+.content h1 {
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.content button {
+  background: transparent;
+  border: 2px solid black;
+  padding: 12px 25px;
+  color: black;
+  cursor: pointer;
+  margin-top: 30px;
+  outline: none;
+}
+
+.giveaway-time {
+  display: flex;
+}
+
+.giveaway-time div {
+  flex-basis: 100px;
+}
+
+.giveaway-time div p {
+  font-size: 60px;
+  margin-bottom: -14px;
+}
+
+.laptop {
+  width: 350px;
+  height: 350px;
+}
+
+.box {
+  background-color: lightcyan;
+  padding: 5px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50px;
+  border-radius: 5px;
+}
+
+.box span {
+  font-size: 20px;
+}
+
+.box p {
+  margin: 0;
+}
+
+.link {
+  font-size: 25px;
+}
+.Support {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  gap: 10px;
+  font-size: 20px;
+}
+.info {
+  display: flex;
+  background-color: midnightblue;
+  margin: 0;
+  position: relative;
+}
+.more {
+  margin-left: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 950px) and (min-width: 571px) {
+  .container {
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    gap: 30px;
+  }
+
+  .laptop {
+    border-radius: 7px;
+    width: 500px;
+    height: 350px;
+  }
+
+  .Views {
+    display: flex;
+    gap: 15px;
+    margin-left: 175px;
+  }
+
+  .prev {
+    margin-top: 150px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .next {
+    margin-top: 150px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .giveaway-time {
+    gap: 50px;
+    margin-left: 90px;
+    margin-bottom: 100px;
+  }
+
+  .p {
+    font-family: 'Brush Script MT';
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 65px;
+  }
+
+  .h1 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  .Support {
+    display: flex;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    gap: 10px;
+    font-size: 30px;
+  }
+
+  .info {
+    display: flex;
+    background-color: midnightblue;
+    margin: 0;
+    position: relative;
+  }
+
+  .more {
+    color: black;
+    margin-left: 10px;
+    font-size: 30px;
+    height: 380px;
+    cursor: pointer;
+  }
+
+  .box {
+    width: 130px;
+    height: 150px;
+    background-color: lightcyan;
+    text-align: center;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+  .h3 {
+    font-size: 70px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .span {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 570px) and (min-width: 431px) {
+  .container {
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    gap: 30px;
+  }
+
+  .laptop {
+    border-radius: 7px;
+    width: 300px;
+    height: 230px;
+  }
+
+  .Views {
+    display: flex;
+    gap: 5px;
+    margin-left: 72px;
+  }
+
+  .prev {
+    margin-top: 90px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .next {
+    margin-top: 90px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .giveaway-time {
+    display: flex;
+    gap: 30px;
+    margin-left: 65px;
+    margin-bottom: 70px;
+  }
+
+  .Support {
+    color: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 13px;
+  }
+
+  .info {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .more {
+    color: black;
+    margin-left: 2px;
+    font-size: 13px;
+    height: 190px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 430px) and (min-width: 391px) {
+  .container {
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    gap: 30px;
+  }
+
+  .laptop {
+    border-radius: 7px;
+    width: 300px;
+    height: 230px;
+  }
+
+  .Views {
+    display: flex;
+    gap: 5px;
+    margin-left: 30px;
+  }
+
+  .prev {
+    margin-top: 90px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .next {
+    margin-top: 90px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .Support {
+    color: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 13px;
+  }
+
+  .info {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .more {
+    color: black;
+    margin-left: 5px;
+    font-size: 13px;
+    height: 210px;
+    cursor: pointer;
+  }
+
+  .giveaway-time {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 390px) and (max-width: 300px) {
+  .container {
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 3px;
+    gap: 10px;
+  }
+
+  .laptop {
+    border-radius: 7px;
+    width: 300px;
+    height: 230px;
+  }
+
+  .Views {
+    display: flex;
+    gap: 5px;
+    margin-left: 1px;
+  }
+
+  .prev {
+    margin-top: 90px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .next {
+    margin-top: 90px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .p {
+    font-family: 'Brush Script MT';
+    margin-bottom: 10px;
+  }
+
+  .Support {
+    color: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 13px;
+  }
+
+  .info {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .more {
+    color: black;
+    margin-left: 3px;
+    font-size: 13px;
+    height: 170px;
+    cursor: pointer;
+  }
+
+  .giveaway-time {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 299px) {
+  .container {
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 1px;
+    gap: 15px;
+  }
+
+  .laptop {
+    border-radius: 7px;
+    width: 230px;
+    height: 170px;
+  }
+
+  .Views {
+    display: flex;
+    gap: 3px;
+    margin-bottom: 0px;
+  }
+
+  .prev {
+    margin-top: 63px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .next {
+    margin-top: 90px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .box {
+    width: 70px;
+    height: 80px;
+    background-color: lightcyan;
+    text-align: center;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+  .giveaway-time {
+    display: flex;
+    gap: 12px;
+  }
+
+  .p {
+    font-family: 'Brush Script MT';
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-left: 35px;
+  }
+
+  .Support {
+    color: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-family: 13px;
+  }
+
+  .info {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .more {
+    color: black;
+    margin-left: 3px;
+    font-size: 13px;
+    height: 210px;
+    cursor: pointer;
+  }
+
+  .deadline {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 70px;
+  }
+}
